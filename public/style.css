@@ -1,0 +1,139 @@
+/* style.css */
+
+/* Global styles */
+body {
+    font-family: 'Comic Sans MS', cursive; /* yes, Comic Sans! */
+    background-color: #ffe6cc; /* warm beige background */
+  }
+  
+  .profile-view {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ffd700; /* golden border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5); /* sunny shadow */
+  }
+  
+  .profileViewMainTitle {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff69b4; /* hot pink */
+    text-shadow: 2px 2px 4px rgba(255, 105, 180, 0.5);
+    margin-bottom: 10px;
+  }
+  
+  /* Form styles */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #666;
+  }
+  
+  input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button[type="submit"] {
+    background-color: #ff9900; /* orange button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ffa07a; /* hover effect */
+  }
+  
+  /* Post list styles */
+  .post-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .post-list li {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #ffd700; /* golden border */
+  }
+  
+  .post-list article {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .post-list h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #00698f; /* blue title */
+  }
+  
+  .post-list p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  /* Update form styles */
+  .update-form {
+    margin-top: 20px;
+  }
+  
+  .update-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .update-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .update-form button[type="submit"] {
+    background-color: #ff9900; /* orange button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .update-form button[type="submit"]:hover {
+    background-color: #ffa07a; /* hover effect */
+  }
+  
+  /* Delete and update buttons */
+  .delete-button, .update-button {
+    background-color: #fff;
+    color: #337ab7;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .delete-button:hover, .update-button:hover {
+    background-color: #f0f0f0;
+  }
